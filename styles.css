@@ -1,0 +1,110 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: green;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    padding: 10px;
+    margin: auto;
+    border: 50px;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+.banner {
+    display: block;
+    background-color: aqua;
+    border-radius: 25px;
+    padding: 50px;
+    background-image: url('burger.jpg');
+    background-position: center;
+    margin: 5px;
+}
+
+.menu {
+    background-color: blue;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.menu > ol {
+    list-style-type: circle;
+}
+
+.table {
+    background-color: green;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.table > ol {
+    list-style-type: disc;
+}
+
+.duration {
+    background-color: red;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.duration > ol {
+    list-style-type: square;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+.copyright {
+    background-color: none;
+    color: purple;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 50px;
+}
